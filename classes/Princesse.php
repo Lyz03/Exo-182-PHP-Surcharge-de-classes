@@ -16,5 +16,21 @@ class Princesse extends personnage
         $this->y = 450;
     }
 
+    /**
+     * @return int
+     */
+    public function getSaved(): int
+    {
+        return $this->saved;
+    }
+
+    /**
+     * @param int $saved
+     */
+    public function setSaved(int $saved): void
+    {
+        $this->saved = $saved;
+    }
+
 
 } 

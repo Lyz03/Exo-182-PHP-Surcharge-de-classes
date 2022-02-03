@@ -32,6 +32,7 @@ $princesse->setNom("Princesse");
 echo $princesse -> getNom() . '<br>';
 $princesse -> setId('princesseId');
 echo $princesse -> getId() . '<br>';
+echo $princesse -> getVie() . '<br>' . $princesse -> getX() . '<br>' . $princesse -> getY() . '<br>' . $princesse -> getSaved();
 
 echo '<br><br>';
 
@@ -41,3 +42,4 @@ $sorcier->setNom("Sorcier");
 echo $sorcier -> getNom() . '<br>';
 $sorcier -> setId('sorcierId');
 echo $sorcier -> getId() . '<br>';
+echo $sorcier -> getVie() . '<br>' . $sorcier -> getX() . '<br>' . $sorcier -> getY();
